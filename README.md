@@ -20,6 +20,6 @@ In addition to the generated code, you'll need the VismaNetDelegatingHandler cla
   var customers = await vismaNet.Customer.GetAllAsync();
 
   foreach (var customer in customers)
-    Console.WriteLine($"{customer.Name}");
+    Console.WriteLine($"Customer: {customer.Name}");
 
 ```
