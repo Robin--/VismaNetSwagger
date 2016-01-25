@@ -1,0 +1,15 @@
+{
+  "name": "vismanetswagger",
+  "version": "1.0.0",
+  "description": "Generate Swagger file for Visual Studio",
+  "main": "generate.js",
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ole Melhus <ole@on-it.no>",
+  "license": "MIT"
+}
