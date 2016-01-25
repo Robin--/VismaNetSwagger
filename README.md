@@ -1,8 +1,8 @@
 # Visma.net API SwaggerConverter
 
-If you're using Visual Studio 2015, you can use this swagger.json to generate all classes needed for using the Visma.net API in Visual Studio. This is a modified version of the swagger.json provided by Visma.
+If you're using Visual Studio 2015, you can use this [swagger.json](swagger.json) to generate all classes needed for using the Visma.net API in Visual Studio. This is a modified version of the [swagger.json](https://integration.acc.test.visma.net/API-index/doc/swagger) provided by Visma.
 
-To add the Visma.net API to your Visual Studio project, right click the project, select Add and "REST API Client". Check "Select an existing Swagger metadata file", click "Browse" and paste the raw url to swagger.json (https://github.com/ON-IT/VismaNetSwagger/raw/master/swagger.json) and press OK. Windows will dowload the swagger.json to you temp folder and load it in Visua Studio for you.
+To add the Visma.net API to your Visual Studio project, right click the project, select Add and "REST API Client". Check "Select an existing Swagger metadata file", click "Browse" and paste the raw url to [swagger.json](https://github.com/ON-IT/VismaNetSwagger/raw/master/swagger.json) and press OK. Windows will dowload the swagger.json to you temp folder and load it in Visual Studio for you.
 
 This will generate (almost) all the classes you need for working with Visma.net. Everything will be created in the folder "Visma.net API", and when you are ready to upgrade you just delete this folder and repeat this process. Make sure that you never make any changes to any files in "Visma.net API".
 
