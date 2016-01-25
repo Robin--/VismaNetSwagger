@@ -6,7 +6,7 @@ To add the Visma.net API to your Visual Studio project, right click the project,
 
 This will generate (almost) all the classes you need for working with Visma.net. Everything will be created in the folder "Visma.net API", and when you are ready to upgrade you just delete this folder and repeat this process. Make sure that you never make any changes to any files in "Visma.net API".
 
-In addition to the generated code, you'll need the VismaNetDelegatingHandler class. See the sample code below.
+In addition to the generated code, you'll need the [VismaNetDelegatingHandler](VismaNetDelegatingHandler.cs) class. See the sample code below.
 
 ```csharp
   const string vismaNetToken = "a9363488-4c2c-4ee5-9b73-79184865a550";
