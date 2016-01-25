@@ -12,7 +12,7 @@ In addition to the generated code, you'll need the VismaNetDelegatingHandler cla
   const string vismaNetToken = "a9363488-4c2c-4ee5-9b73-79184865a550";
   var credentials = new TokenCredentials("Bearer", VismaNetToken);
   var uri = new Uri("https://integration.visma.net/API");
-  var delegationHandler = new VismaNetDelegatingHandler(1021021);
+  var delegationHandler = new VismaNetDelegatingHandler(1021021); // This is where we set company id
   var vismaNet = new VismanetAPI(uri, credentials, delegationHandler);
 
   var customers = await vismaNet.Customer.GetAllAsync();
