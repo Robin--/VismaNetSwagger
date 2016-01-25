@@ -8,7 +8,7 @@ This will generate (almost) all the classes you need for working with Visma.net.
 
 In addition to the generated code, you'll need the VismaNetDelegatingHandler class. See the sample code below.
 
-```
+```csharp
   const string vismaNetToken = "a9363488-4c2c-4ee5-9b73-79184865a550";
   var credentials = new TokenCredentials("Bearer", VismaNetToken);
   var uri = new Uri("https://integration.visma.net/API");
